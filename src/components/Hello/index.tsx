@@ -13,6 +13,11 @@ export default function Hello() {
         intent is to provide a more simple and faster way to start coding your
         apps"
       </span>
+
+      <footer>
+        created by
+        <a target="_blank" href="https://github.com/gabrielcasag">@gabrielcasag</a>
+      </footer>
     </Container>
   );
 }

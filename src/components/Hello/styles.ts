@@ -10,10 +10,11 @@ export const Container = styled.div`
   justify-content: center;
 
   > img {
-    height: 400px;
+    height: 300px;
     width: auto;
     margin-bottom: 10px;
   }
+
   > p {
     font-size: 1.5rem;
     font-weight: bold;
@@ -27,5 +28,20 @@ export const Container = styled.div`
     font-style: italic;
     line-height: 2rem;
     font-size: 1.2rem;
+  }
+
+  > footer {
+    position: absolute;
+    bottom: 10px;
+    font-weight: 600;
+
+    a {
+      font-style: italic;
+      text-decoration: underline;
+
+      &:hover {
+        color: blue;
+      }
+    }
   }
 `;
