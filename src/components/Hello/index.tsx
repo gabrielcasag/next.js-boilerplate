@@ -1,8 +1,8 @@
-import { Container } from './styles';
+import * as S from './styles';
 
-export default function Hello() {
+const Hello = () => {
   return (
-    <Container>
+    <S.Container>
       <img src="/logo.svg" alt="Logo" />
       <p>
         Hello! This is an next.js ft. prettier ft. eslint ft. styled-components
@@ -16,8 +16,16 @@ export default function Hello() {
 
       <footer>
         created by
-        <a target="_blank" href="https://github.com/gabrielcasag">@gabrielcasag</a>
+        <a
+          target="_blank"
+          href="https://github.com/gabrielcasag"
+          rel="noreferrer"
+        >
+          @gabrielcasag
+        </a>
       </footer>
-    </Container>
+    </S.Container>
   );
-}
+};
+
+export default Hello;

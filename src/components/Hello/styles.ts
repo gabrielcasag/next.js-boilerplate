@@ -40,7 +40,7 @@ export const Container = styled.div`
       text-decoration: underline;
 
       &:hover {
-        color: blue;
+        color: ${props => props.theme.colors.primary};
       }
     }
   }
